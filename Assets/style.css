@@ -39,7 +39,7 @@ body {
   padding: 2%;
   width: 300px;
 }
-/* adds padding on top of About Me text on index/About page  */
+/* adds padding on top of About Me paragraph text on index/About page  */
 p {
   padding-top: 2%;
 }
@@ -53,12 +53,12 @@ p {
     background-color: #519bb1;
 }
 
-/* Sticky footer bar with top border line */
+/* Footer bar with top border line */
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
+  height: 60px;
   line-height: 60px;
   background-color: #242424;
   color: #777575;
