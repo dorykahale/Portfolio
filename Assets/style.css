@@ -53,8 +53,13 @@ p {
     background-color: #519bb1;
 }
 
-/* Footer bar and border line */
+/* Sticky footer bar with top border line */
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px;
   background-color: #242424;
   color: #777575;
   text-align: center;
