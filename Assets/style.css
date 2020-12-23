@@ -15,12 +15,13 @@ body {
 /* This controls the dimensions of the white container behind the main content on all pages */
 .white-box {
     background-color: white;
-    padding: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
     margin-top: 8%;
     margin-bottom: 5%;
-
+    margin-right: 5%;
+    margin-left: 5%;
 }
-
 /* Page title ("About Me", "Contact", & "Portfolio") text on each page */
 #page-title {
     font-size: xxx-large;
@@ -31,7 +32,6 @@ body {
 /* Image floats left on index/About page so text wraps under */
 #img-container { 
   float: left;
-
 }
 /* images sized to 350 width in Portfolio & About Me pages */
 .three-fifty {
@@ -60,10 +60,10 @@ body {
 }
 /* adds padding on top of About Me paragraph text on index/About page  */
 p {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 /* Allows image to change size within container on index/About page */
 .responsive {
