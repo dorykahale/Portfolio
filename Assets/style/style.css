@@ -1,10 +1,9 @@
 /* Navigation Bar brand text ("Dory Kahalé") on all pages */
 .navbar-brand {
-    background-color: #519bb1;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:x-large;
-    font-weight: 600;
-    color: white !important;
+    font-weight: 900;
+    color:  #627981 !important;
 }
 
 /* The background image in the body of all pages */
@@ -12,9 +11,13 @@ body {
     background-image: url(https://1r5sky3msllx3mof7049775j-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/157383-cool-blue-website-background-textures.jpg);
     background-size: 100%;
   }
+  h2 {
+    color: #627981;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 /* This controls the dimensions of the white container behind the main content on all pages */
 .white-box {
-    background-color: white;
+    background-color: rgb(239, 241, 245);
     padding-right: 3%;
     padding-left: 3%;
     margin-top: 8%;
@@ -25,8 +28,8 @@ body {
 /* Page title ("About Me", "Contact", & "Portfolio") text on each page */
 #page-title {
     font-size: xxx-large;
-    color: #519bb1;
-    font-family: 'Times New Roman', Times, serif;
+    color: #627981;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 900;
 }
 /* Image floats left on index/About page so text wraps under */
@@ -44,18 +47,18 @@ body {
 /* text floats left and under the image on index/About page */
 .float-left {
   float: left;
-  padding-left: 2%;
+  padding-left: 4%;
   padding-right: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 4%;
   width: 350px;
 }
 .float-right {
   float: right;
-  padding-left: 2%;
+  padding-left: 4%;
   padding-right: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 4%;
   width: 350px;
 }
 /* adds padding on top of About Me paragraph text on index/About page  */
@@ -64,15 +67,16 @@ p {
   margin-right: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 /* Allows image to change size within container on index/About page */
 .responsive {
-    max-width: 100%;
-    height: auto;
-  }
+  padding-bottom: 20px;
+}
 /* Button color on Contact page */
 .btn    {
-    background-color: #519bb1;
+    background-color: #94a5aa;
 }
 
 /* Footer bar with top border line */
@@ -86,4 +90,5 @@ p {
   color: #777575;
   text-align: center;
   border-top: 5px solid #519bb1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
