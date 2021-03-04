@@ -1,4 +1,18 @@
-# Portfolio
-This is a portfolio about Dory Kahalé and includes a short bio, some photos, and a form for contacting.
-https://dorykahale.github.io/Portfolio/
-https://github.com/dorykahale/Portfolio
+
+# Dory Kahalé
+
+Email: dorykahale@gmail.com
+
+
+
+[North Music Agency](https://northmusicagency.com/)
+
+[Mixlive](https://mix.live/)
+
+[The Scratch Mill](https://thescractchmill.com)
+
+[Portfolio](https://dorykahale.github.io/Portfolio/)
+
+
+
+
